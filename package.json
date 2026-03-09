@@ -1,0 +1,19 @@
+{
+  "name": "lunoss-pay-integrator-kit",
+  "version": "1.0.0",
+  "description": "Complete integration kit for Lunoss Pay — Solana payment gateway",
+  "scripts": {
+    "health": "node scripts/health-check.js",
+    "test-payment": "node scripts/test-payment.js",
+    "example:checkout": "node examples/ecommerce-checkout.js",
+    "example:webhook": "node examples/webhook-node.js",
+    "example:payment": "node examples/create-payment.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.0",
+    "express": "^4.18.0"
+  },
+  "keywords": ["solana", "payments", "lunosspay", "crypto", "blockchain"],
+  "license": "MIT"
+}
